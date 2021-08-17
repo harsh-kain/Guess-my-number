@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.main{
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    /* border: 2px solid red; */
+    font-size: 50px;
+}
+.wrapper{
+    
+    /* border: 2px solid rebeccapurple; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+#display{
+    font-size:200px ;
+}
+.middle-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#generate_btn{
+    padding: 15px;
+    border: none;
+    font-size: 30px;
+    border: 2px solid black;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: white;
+}
+#user_input{
+    width: 600px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rebeccapurple;
+    margin: 20px;
+
+}
+
+.bottom-section{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; 
+
+}
+
+#chance{
+    font-size: 30px;
+}
+#low_high{
+    font-size: 30px;
+}
+#game{
+    font-size: 60px;
+
+}
+#score{
+    font-size: 30px;
+}
+
+
+
+
